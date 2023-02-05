@@ -22,10 +22,10 @@ public class StepsDefinitions {
         SeleniumDriver.tearDown();
     }
 
-    @Given("El usuario se loguea con user {string} and password {string}")
-    public void el_usuario_se_loguea_con_user_and_password(String user, String password) {
+    @Given("El user ingresa sus credenciales en el sitio")
+    public void el_user_ingresa_sus_credenciales_en_el_sitio() {
         CommonMethods.openPage();
-        LoginPage.fillLoginForm(user,password);
+        LoginPage.fillLoginForm("standard_user","secret_sauce");
     }
 
     @When("Selecciona el producto con el menor precio")

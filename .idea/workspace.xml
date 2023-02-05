@@ -5,24 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd633394-09bb-4855-bbf7-fb543d3ad87a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/features/pages/HomeBasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/features/pages/InventoryPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/features/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/features/runner/TestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/features/stepdefinitions/StepsDefinitions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/features/utils/CommonMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/features/utils/SeleniumDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/drivers/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/CompraExitosa.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/pages/InventoryPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/pages/InventoryPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/runner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/runner/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/stepdefinitions/StepsDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/stepdefinitions/StepsDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/CompraExitosa.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/CompraExitosa.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +24,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -59,23 +51,25 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/sol.delvalle/IdeaProjects/Test_Framework_With_Cucumber_BySol",
+    "last_opened_file_path": "C:/Users/sol.delvalle/Desktop/Proyectos/Cucumber_BDD_Framawork_With_POM-master",
     "settings.editor.selected.configurable": "MavenSettings"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sol.delvalle\IdeaProjects\VozyAssessment_Sol_DelValle" />
       <recent name="C:\Users\sol.delvalle\IdeaProjects\VozyAssessment_Sol_DelValle\src\test\resources\drivers" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Compra exitosa por parte de un User SWAGLABS">
+  <component name="RunManager" selected="Cucumber Java.Feature: CompraExitosa">
     <configuration name="Feature: CompraExitosa" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/CompraExitosa.feature" />
       <option name="GLUE" value="features.stepdefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="VozyAssessment_Sol_DelValle" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="PROGRAM_PARAMETERS" value="--plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Compra exitosa por parte de un User SWAGLABS$&quot;" />
+      <shortenClasspath name="NONE" />
       <option name="SUGGESTED_NAME" value="Feature: CompraExitosa" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
@@ -96,6 +90,7 @@
       <module name="VozyAssessment_Sol_DelValle" />
       <option name="NAME_FILTER" value="^Compra exitosa por parte de un User SWAGLABS$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Compra exitosa por parte de un User SWAGLABS$&quot;" />
+      <shortenClasspath name="NONE" />
       <option name="SUGGESTED_NAME" value="Scenario: Compra exitosa por parte de un User SWAGLABS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
@@ -128,11 +123,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Cucumber Java.Feature: CompraExitosa" />
+      <item itemvalue="Cucumber Java.Scenario: Compra exitosa por parte de un User SWAGLABS" />
+      <item itemvalue="Cucumber Java.Scenario: Successful login using valid account" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: Compra exitosa por parte de un User SWAGLABS" />
         <item itemvalue="Cucumber Java.Feature: CompraExitosa" />
+        <item itemvalue="Cucumber Java.Scenario: Compra exitosa por parte de un User SWAGLABS" />
         <item itemvalue="Cucumber Java.Scenario: Successful login using valid account" />
+        <item itemvalue="Cucumber Java.Scenario: Successful login using valid account" />
+        <item itemvalue="Cucumber Java.Scenario: Compra exitosa por parte de un User SWAGLABS" />
       </list>
     </recent_temporary>
   </component>
